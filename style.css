@@ -1,0 +1,43 @@
+/* Body */
+body {
+    background: url('login.jpg') no-repeat center center/cover;
+    margin: 0;
+    height: 100vh; /* Ensure the background covers the full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px; 
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.form input,
+.form button {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.form button {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: green;
+}
+
